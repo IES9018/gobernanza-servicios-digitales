@@ -19,6 +19,43 @@ de DNS y asignación de subdominios.
 
 ---
 
+## Desarrollo vs. Implementación
+
+> **Analogía del restaurante escolar**
+
+| Software | Restaurante |
+|---|---|
+| **Desarrollador** | Chef |
+| **Código fuente** | Receta |
+| **Git** | Cuaderno de recetas con control de cambios |
+| **GitHub** | Cocina colaborativa donde varios chefs comparten, revisan y fusionan recetas |
+| **Desarrollo (local)** | Chef probando el plato en su mesada, con sus propios ingredientes |
+| **Implementación (servidor escolar)** | Servir el plato en el comedor de la escuela |
+| **Infraestructura** | Cocina, mesas, sillas, vajilla, mozos, heladera, gas, luz |
+| **Nombre de la institución** | El letrero que dice "IES 9-018" en la entrada del restaurante |
+
+El **desarrollo** es lo que pasa en la computadora del programador: escribe
+código, lo versiona con Git, abre Pull Requests, colabora con otros en GitHub,
+prueba, corrige. Todo en su entorno local. Puede equivocarse, romper y volver
+a empezar sin afectar a nadie.
+
+La **implementación** es poner ese código en el servidor escolar para que
+otros lo usen. Acá entran redes, dominio institucional, contenedores Docker,
+bases de datos, seguridad, backups, monitoreo. Ya no es prueba: es un servicio
+funcionando con recursos de la institución.
+
+**Y esta infraestructura es escolar.** El servidor, la energía, la conectividad
+y —sobre todo— el **nombre del IES 9-018** son recursos compartidos de toda
+la comunidad educativa. Por eso no cualquier plato se sirve en el comedor:
+el plato debe ser **nutritivo**, es decir, **educativo, seguro y alineado con
+los valores de la institución.**
+
+Un desarrollador puede cocinar lo que quiera en su casa. Pero si va a usar
+la cocina de la escuela y servir bajo el letrero del IES 9-018, el menú
+necesita aprobación. De eso trata este marco de gobernanza.
+
+---
+
 ## Flujo de aprobación
 
 ```mermaid

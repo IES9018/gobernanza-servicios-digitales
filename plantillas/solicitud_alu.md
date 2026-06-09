@@ -1,6 +1,6 @@
 # Solicitud de Alojamiento de Servicio Digital — IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Beta Institucional
 **Documento relacionado:** `01_SOLICITUD_ALOJAMIENTO.md`
 
 > **Instrucciones:** Copiar este archivo, renombrarlo con el nombre del
@@ -33,17 +33,42 @@
 
 ---
 
-## 2. Tecnología
+## 2. Justificación de arquitectura
+
+> Obligatorio para alumnos de la Tecnicatura en Desarrollo de Software.
+
+| Pregunta | Respuesta |
+|----------|-----------|
+| Arquitectura utilizada | ☐ Monolítica ☐ Microservicios ☐ Capas ☐ Hexagonal ☐ Otra: |
+| ¿Por qué se eligió? | |
+| Patrón principal | |
+| Relación con el dominio del problema | |
+
+---
+
+## 3. Repositorio y licencia
+
+| Campo | Respuesta |
+|-------|-----------|
+| URL del repositorio GitHub | |
+| ¿Es público? | ☐ Sí ☐ No (si no: fork en org IES9018) |
+| Licencia del desarrollo | |
+| ¿Compatible con uso educativo? | ☐ Sí ☐ No |
+
+---
+
+## 4. Tecnología
 
 | Aspecto | Detalle |
 |---------|---------|
 | Lenguaje(s) | |
 | Framework | |
 | Base de datos | |
+| APIs externas | |
 
 ---
 
-## 3. Datos y contenido
+## 5. Datos y contenido
 
 | Pregunta | Respuesta |
 |----------|-----------|
@@ -53,7 +78,7 @@
 
 ---
 
-## 4. Riesgos
+## 6. Riesgos
 
 | Riesgo | ¿Aplica? | ¿Cómo se mitiga? |
 |--------|----------|------------------|

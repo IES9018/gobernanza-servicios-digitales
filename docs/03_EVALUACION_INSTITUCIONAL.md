@@ -1,6 +1,6 @@
 # Evaluación Institucional de Servicio Digital — IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Beta Institucional
 **Plantilla imprimible:** `plantillas/evaluacion_institucional.md`
 **Completado por:** Dirección / Coordinación / Consejo Directivo
 
@@ -28,7 +28,22 @@
 
 ---
 
-## 3. Riesgo reputacional
+## 3. Aporte al perfil profesional (Tecnicatura en Desarrollo de Software)
+
+| Pregunta | Respuesta |
+|----------|-----------|
+| ¿Qué materias de la carrera complementa este proyecto? | |
+| ¿Cómo contribuye al perfil profesional del estudiante? | |
+| ¿Tiene potencial para ser usado como proyecto integrador? | ☐ Sí ☐ No — ¿Cómo?: |
+| ¿Tiene potencial como muestra profesional (portfolio / entrevistas)? | ☐ Sí ☐ No — ¿Cómo?: |
+
+> Estas preguntas aplican cuando el solicitante es un estudiante de la
+> Tecnicatura Superior en Desarrollo de Software. Para otros perfiles
+> (docentes, externos), pueden omitirse o responderse como "N/A".
+
+---
+
+## 4. Riesgo reputacional
 
 | Pregunta | Respuesta |
 |----------|-----------|
@@ -37,7 +52,7 @@
 
 ---
 
-## 4. Contenido y actividades
+## 5. Contenido y actividades
 
 | El servicio... | Respuesta |
 |----------------|-----------|
@@ -53,7 +68,7 @@
 
 ---
 
-## 5. Dictamen institucional
+## 6. Dictamen institucional
 
 | Decisión | |
 |----------|-|
@@ -69,7 +84,7 @@
 
 ---
 
-## 6. Firmas
+## 7. Firmas
 
 | Miembro del Consejo Directivo | Firma | Fecha |
 |-------------------------------|-------|-------|

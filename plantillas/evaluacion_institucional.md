@@ -1,6 +1,6 @@
 # Evaluación Institucional — Plantilla IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Beta Institucional
 **Documento relacionado:** `03_EVALUACION_INSTITUCIONAL.md`
 
 > Completar por Dirección / Coordinación / Consejo Directivo.
@@ -15,6 +15,12 @@
 
 - ¿Contribuye a objetivos pedagógicos? ☐ Sí ☐ No
 - ¿Genera valor para estudiantes/docentes? ☐ Sí ☐ No
+
+## Aporte al perfil profesional (si aplica)
+
+- ¿Qué materias complementa?
+- ¿Contribuye al perfil profesional? ☐ Sí ☐ No
+- ¿Potencial como proyecto integrador? ☐ Sí ☐ No
 
 ## Riesgo reputacional
 

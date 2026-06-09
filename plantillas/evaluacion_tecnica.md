@@ -1,6 +1,6 @@
 # Evaluación Técnica — Plantilla IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Beta Institucional
 **Documento relacionado:** `02_EVALUACION_TECNICA.md`
 
 > Completar por el admin técnico del servidor.
@@ -9,6 +9,14 @@
 **Fecha:** {fecha}
 
 ---
+
+## Repositorio y licencia
+
+| Requisito | Cumple |
+|-----------|--------|
+| Repositorio público en GitHub | ☐ Sí ☐ No |
+| Si privado: fork en org IES9018 | ☐ Sí ☐ No ☐ N/A |
+| Licencia compatible uso educativo | ☐ Sí ☐ No |
 
 ## Seguridad
 

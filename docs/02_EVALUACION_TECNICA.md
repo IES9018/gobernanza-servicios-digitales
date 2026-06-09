@@ -1,6 +1,6 @@
 # Evaluación Técnica de Servicio Digital — IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Beta Institucional
 **Plantilla imprimible:** `plantillas/evaluacion_tecnica.md`
 **Completado por:** Admin técnico del servidor
 
@@ -16,7 +16,29 @@
 
 ---
 
-## 2. Checklist de seguridad
+## 2. Repositorio y licencia
+
+| Requisito | Cumple | Observaciones |
+|-----------|--------|---------------|
+| El repositorio es público en GitHub | ☐ Sí ☐ No | |
+| Si es privado: está en la org IES9018 como fork | ☐ Sí ☐ No ☐ N/A | |
+| El proyecto alojado será un fork del original | ☐ Sí ☐ No | |
+| La licencia es compatible con uso educativo institucional | ☐ Sí ☐ No | ¿Cuál?: |
+| El archivo LICENSE existe y es válido | ☐ Sí ☐ No ☐ N/A | |
+
+---
+
+## 3. Justificación arquitectónica (para alumnos)
+
+| Aspecto | Verificado | Observaciones |
+|---------|------------|---------------|
+| La arquitectura declarada es coherente con el proyecto | ☐ Sí ☐ No | |
+| Los patrones mencionados se reflejan en el código | ☐ Sí ☐ No ☐ N/A | |
+| La justificación técnica es razonable | ☐ Sí ☐ No | |
+
+---
+
+## 4. Checklist de seguridad
 
 | Requisito | Cumple | Observaciones |
 |-----------|--------|---------------|
@@ -30,7 +52,7 @@
 
 ---
 
-## 3. Checklist de operación
+## 5. Checklist de operación
 
 | Requisito | Cumple | Observaciones |
 |-----------|--------|---------------|
@@ -43,7 +65,7 @@
 
 ---
 
-## 4. Checklist de infraestructura
+## 6. Checklist de infraestructura
 
 | Requisito | Cumple | Observaciones |
 |-----------|--------|---------------|
@@ -54,11 +76,12 @@
 
 ---
 
-## 5. Dictamen técnico
+## 7. Dictamen técnico
 
 | Aspecto | Resultado |
 |---------|-----------|
 | ¿El servicio es seguro para desplegar? | ☐ Sí ☐ No ☐ Condicional |
+| ¿El repositorio y la licencia cumplen los requisitos? | ☐ Sí ☐ No |
 | Condiciones (si aplica) | |
 | Nivel recomendado | ☐ 1 — Experimental ☐ 2 — Institucional ☐ 3 — Público |
 
@@ -70,7 +93,7 @@
 
 ---
 
-## 6. Firma del evaluador
+## 8. Firma del evaluador
 
 | | |
 |--|--|

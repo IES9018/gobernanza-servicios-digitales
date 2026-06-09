@@ -22,13 +22,13 @@ de DNS y asignación de subdominios.
 ## Flujo de aprobación
 
 ```mermaid
-flowchart TD
-    A["Solicitud 01<br/>Alumno/Docente"] --> B["Evaluación Técnica 02<br/>Admin Servidor"]
-    B --> C["Evaluación Institucional 03<br/>Dirección"]
+graph TD
+    A["Solicitud 01"] --> B["Evaluación Técnica 02"]
+    B --> C["Evaluación Institucional 03"]
     C --> D["Declaración 04 + Resolución 08"]
     D --> E[Consejo Directivo]
-    E -->|Aprueba| F["Despliegue + Fork en Servidor<br/>+ SLA 06"]
-    E -->|Rechaza| G[Notificación con fundamentos]
+    E -->|Aprueba| F["Despliegue + SLA 06"]
+    E -->|Rechaza| G["Notificación con fundamentos"]
     subgraph Estudiantes Tecnicatura
     A
     end

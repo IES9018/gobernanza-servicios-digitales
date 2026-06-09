@@ -84,8 +84,10 @@ responsabilidad exclusiva de quien lo solicita y lo mantiene.
 | 04 | Declaración de Responsabilidad | Responsable del proyecto | Liberar de responsabilidad a la institución |
 | 05 | Política de Uso Aceptable | Todos los desarrolladores | Establecer reglas de convivencia digital |
 | 06 | SLA Educativo | Admin + Responsable | Definir nivel de servicio esperado |
-| 07 | Glosario | — | Términos técnicos explicados |
+| 07 | Solicitud de Usuario | Solicitante de acceso | Pedir una cuenta en el servidor |
+| 08 | Resolución Directiva | Consejo Directivo | Formalizar la aprobación del servicio |
 | 09 | Auditoría y Transparencia | Auditor / Público | Cómo auditar el servidor, herramientas instaladas, acceso read-only |
+| 10 | Glosario | — | Términos técnicos explicados |
 
 ---
 

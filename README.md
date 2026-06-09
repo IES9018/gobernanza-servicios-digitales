@@ -32,13 +32,19 @@ administradores técnicos, estudiantes desarrolladores y los datos de terceros.
 
 ### Archivos complementarios
 
-- [Modelo de Resolución Directiva](docs/RESOLUCION_DIRECTIVA.md) — para formalizar la aprobación
+- [Solicitud de usuario del servidor](docs/07_SOLICITUD_USUARIO.md) — para pedir una cuenta con perfiles definidos
+- [Resolución Directiva](docs/08_RESOLUCION_DIRECTIVA.md) — modelo para formalizar la aprobación
 - [Índice completo de gobernanza](docs/00_INDICE.md) — con modelo de responsabilidades y niveles
 
 ### Plantillas editables
 
 - [Solicitud de alojamiento (versión alumnos)](plantillas/solicitud_alu.md)
 - [Declaración de responsabilidad (versión imprimible)](plantillas/declaracion_responsabilidad.md)
+- [Evaluación técnica](plantillas/evaluacion_tecnica.md)
+- [Evaluación institucional](plantillas/evaluacion_institucional.md)
+- [Política de uso aceptable](plantillas/politica_uso_aceptable.md)
+- [SLA educativo](plantillas/sla_educativo.md)
+- [Solicitud de usuario del servidor](plantillas/solicitud_usuario.md)
 
 ## Ejemplos incluidos
 

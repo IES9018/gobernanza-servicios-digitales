@@ -41,19 +41,48 @@ Toda política de gobernanza digital en educación comparte estos elementos:
 
 ## Contexto argentino
 
-En Argentina, políticas nacionales como el Plan Juana Manso y los marcos de
-inclusión digital del Ministerio de Educación enfatizan la soberanía digital,
-protección de datos y gobernanza responsable de plataformas. Muchas
-instituciones educativas argentinas cuentan con Políticas de Uso Aceptable y
-procesos internos de autorización para publicación de sitios y subdominios.
+En Argentina existen **políticas provinciales y nacionales** de educación
+digital, pero están enfocadas en plataformas centralizadas, no en la
+gobernanza de servicios alojados por estudiantes en un servidor escolar.
 
-## Adaptación al IES 9-018
+**Mendoza** cuenta con:
+- La **Dirección de Políticas de Integración Digital** de la DGE
+- El programa **EDUTEC** (Educación Digital Universal con Tecnologías
+  Conectadas)
+- La **Ley Provincial N° 9599** que establece el Sistema de Gestión
+  Educativa Integral (GEI) con roles formales, perfiles de acceso,
+  responsabilidades de carga y sanciones por mal uso de datos
+  [Boletín Oficial](https://boe.mendoza.gov.ar/default/public/publico/verpdf/32266)
 
-Este repositorio es una **adaptación concreta y práctica** al contexto del
-IES 9-018 "Ing. Eduardo Latzina" de Malargüe, Mendoza. Toma el núcleo común
-de buenas prácticas y lo ajusta a los recursos, la escala y la comunidad
-educativa de una institución de nivel superior argentina.
+Sin embargo, estas son políticas **verticales** (provincia → escuela), no un
+marco **horizontal** donde estudiantes desarrollen y alojen sus propios
+servicios con aprobación institucional.
 
-La esencia es transferible y está alineada con las recomendaciones
-internacionales. Otras instituciones educativas pueden adaptarlo libremente
+**Un caso que demuestra la necesidad de gobernanza:**
+En septiembre de 2025, la **UBA** redirigió su dominio principal
+(`uba.ar`) a un subdominio de protesta política (`noalveto.uba.ar`),
+generando una denuncia del gobierno nacional por uso indebido de
+canales oficiales. El incidente evidenció que **ni una universidad
+nacional tiene una política formal de control de subdominios**.
+[Fuente](https://www.losandes.com.ar/politica/el-gobierno-denunciara-autoridades-la-uba-hacer-campana-rechazo-al-veto-milei-su-pagina-web-n5962805)
+
+## El IES 9-018 está innovando
+
+Hasta donde se ha podido investigar, **no existe en Argentina un marco
+institucional público y detallado** como el de este repositorio: una
+política completa de gobernanza de servicios digitales que cubra
+solicitud, evaluación técnica, evaluación institucional, declaración de
+responsabilidad, política de uso aceptable, SLA educativo, resolución
+directiva, auditoría y emergencia — todo adaptado a una institución de
+nivel superior y publicado open source para que otras escuelas lo
+adapten.
+
+Este repositorio es, por lo tanto, una **contribución original** al
+panorama educativo argentino. No partió de cero: tomó el núcleo común
+de buenas prácticas internacionales (UNESCO, Pasadena City College,
+George Brown College) y las adaptó al contexto de un IES de Mendoza.
+Pero su **articulación completa como marco institucional abierto** es
+una innovación.
+
+Otras instituciones educativas argentinas pueden adaptarlo libremente
 (con atribución).

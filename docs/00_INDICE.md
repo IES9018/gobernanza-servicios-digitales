@@ -88,6 +88,7 @@ responsabilidad exclusiva de quien lo solicita y lo mantiene.
 | 08 | Resolución Directiva | Consejo Directivo | Formalizar la aprobación del servicio |
 | 09 | Auditoría y Transparencia | Auditor / Público | Cómo auditar el servidor, herramientas instaladas, acceso read-only |
 | 10 | Glosario | — | Términos técnicos explicados |
+| 11 | Emergencia y Control | Admin técnico + Directivos | Credenciales en sobre cerrado, blindaje de admins delegados, protección de logs |
 
 ---
 

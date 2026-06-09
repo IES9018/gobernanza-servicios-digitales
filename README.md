@@ -71,6 +71,7 @@ autorizada con capacidad técnica. Existe un usuario `auditor` con permisos
 exclusivamente de lectura.
 
 → [Documentación completa de auditoría](docs/09_AUDITABILIDAD.md)
+→ [Emergencia, blindaje y control de acceso](docs/11_EMERGENCIA_Y_CONTROL.md)
 
 ### Herramientas instaladas
 

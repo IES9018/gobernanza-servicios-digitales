@@ -1,13 +1,14 @@
-# Transparencia y Auditoría del Servidor — IES 9-018
+# Guía Técnica de Auditoría — IES 9-018
 
 **Versión:** 1.0 — Junio 2026
+**Documento relacionado:** `12_TRANSPARENCIA_COMUNITARIA.md` (política de transparencia y derecho de auditoría)
 
 ---
 
-El servidor del IES 9-018 está diseñado para ser **totalmente auditable** por
-cualquier persona autorizada con capacidad técnica. Este documento describe
-cómo funciona el sistema de auditoría y cómo acceder a él de forma segura
-y transparente.
+Este documento describe las **herramientas técnicas** instaladas en el
+servidor para garantizar la auditabilidad. La **política institucional**
+de transparencia (qué se audita, quién puede solicitarlo, cómo se
+publican los resultados) está en el documento `12_TRANSPARENCIA_COMUNITARIA.md`.
 
 ---
 
@@ -15,15 +16,16 @@ y transparente.
 
 | Principio | Cómo se cumple |
 |-----------|---------------|
-| **Transparencia** | Todo evento relevante queda registrado en logs inalterables |
+| **Trazabilidad** | Todo evento relevante queda registrado en logs inalterables |
 | **Acceso controlado** | Existe un usuario `auditor` con permisos exclusivamente de lectura |
 | **Sin puntos ciegos** | No hay comandos que puedan ejecutarse sin dejar rastro |
 | **Disponibilidad** | Los logs se almacenan localmente y rotan automáticamente |
 | **Independencia** | El usuario auditor es distinto del admin, no comparte credenciales |
 
-> Cualquier persona (docente, inspector, profesional externo, autoridad de la DGE)
-> puede solicitar acceso de auditoría. El acceso es **read-only**: ve todo,
-> modifica nada.
+> La política de transparencia (qué información es pública, quién puede
+> auditar, cómo solicitar una auditoría) está documentada en
+> `12_TRANSPARENCIA_COMUNITARIA.md`. Este documento se limita a la guía
+> técnica de implementación.
 
 ---
 

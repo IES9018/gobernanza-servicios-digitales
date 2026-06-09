@@ -72,6 +72,7 @@ exclusivamente de lectura.
 
 → [Documentación completa de auditoría](docs/09_AUDITABILIDAD.md)
 → [Emergencia, blindaje y control de acceso](docs/11_EMERGENCIA_Y_CONTROL.md)
+→ [Transparencia y auditoría comunitaria](docs/12_TRANSPARENCIA_COMUNITARIA.md)
 
 ### Herramientas instaladas
 

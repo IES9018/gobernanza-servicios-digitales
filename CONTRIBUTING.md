@@ -1,25 +1,29 @@
 # Cómo contribuir — Gobernanza de Servicios Digitales IES 9-018
 
 **¡Gracias por tu interés en contribuir!** Este proyecto es abierto, educativo
-y está impulsado por estudiantes de la **Tecnicatura Superior en Desarrollo de
-Software** del IES 9-018, en el marco de los proyectos activos de la
-[organización IES9018](https://github.com/IES9018).
+y está impulsado desde la **Tecnicatura Superior en Desarrollo de Software**
+del IES 9-018, pero abierto a **toda la comunidad educativa**: estudiantes de
+cualquier carrera, docentes de todas las áreas, directivos y personal institucional.
+
+No hace falta saber programar para participar. La gobernanza digital nos
+involucra a todos.
 
 ---
 
 ## Formas de contribuir
 
-### 1. Reportar mejoras o problemas (Issues)
+### 1. Dejar una sugerencia formal (Issues)
 
 Cualquier persona puede abrir un Issue para:
 
-- Sugerir mejoras en la documentación.
+- Sugerir cambios en la gobernanza digital de la institución.
+- Proponer mejoras en la documentación, procesos o políticas.
 - Reportar errores, inconsistencias o información desactualizada.
 - Proponer nuevas plantillas o procedimientos.
 - Discutir ideas para el futuro sistema web.
 - Pedir aclaraciones sobre algún documento.
 
-[→ Abrir un Issue](https://github.com/IES9018/gobernanza-servicios-digitales/issues/new)
+[→ Abrir un Issue](https://github.com/IES9018/gobernanza-servicios-digitales/issues/new/choose)
 
 ### 2. Contribuir con código o documentación (Pull Requests)
 

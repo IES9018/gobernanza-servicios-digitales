@@ -7,6 +7,7 @@ Settings → Labels (o via API con `gh label create`)
 |-------|-------|-------------|
 | `mejora` | `#a2eeef` | Mejora en documentación, plantillas o procesos existentes |
 | `bug` | `#d73a4a` | Error, inconsistencia o información desactualizada |
+| `sugerencia` | `#c5def5` | Sugerencia general sobre gobernanza digital |
 | `sistema-web` | `#0e8a16` | Relacionado al desarrollo del sistema web de gestión |
 | `discusión` | `#d4c5f9` | Tema abierto a debate, sin decisión tomada |
 | `colaboración` | `#fbca04` | Convocatoria a participación, llamado a colaboradores |

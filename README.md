@@ -54,35 +54,81 @@ flowchart TD
 
 ---
 
-## Colaborá con este proyecto
+## Este es un proyecto vivo
 
-Este marco de gobernanza es un proyecto **colaborativo, abierto y educativo**,
-impulsado desde la **Tecnicatura Superior en Desarrollo de Software** del
-IES 9-018. La [organización de GitHub IES9018](https://github.com/IES9018)
-ya tiene proyectos activos — como los laboratorios de Programación III, los
-trabajos de Modelado de Software y prácticas profesionalizantes — y este
-repositorio busca seguir ese mismo camino.
+Esta documentación **está en desarrollo, no está cerrada ni terminada**.
+Es un marco abierto, dinámico y en evolución constante, construido colectivamente
+por la comunidad del IES 9-018.
 
-### ¿Por qué participar?
+Toda sugerencia, crítica o propuesta es bienvenida y queda registrada
+formalmente a través de los [Issues](https://github.com/IES9018/gobernanza-servicios-digitales/issues)
+de este repositorio.
 
-- **Experiencia profesional real**: trabajás sobre un sistema que la institución
-  necesita, con requisitos reales, revisión de código y despliegue en producción.
-- **Proyecto integrador**: perfecto para materias como Práctica Profesionalizante,
-  Modelado de Software o Arquitectura y Diseño de Interfaces.
-- **Portfolio**: tu código firmado queda público y visible para futuros empleadores.
-- **Trabajo colaborativo**: aprendés a usar Issues, PRs, forks, code review y
-  GitFlow en un entorno real con otros estudiantes.
+---
 
-### ¿Qué viene después? — Sistema web de gestión
+## Abierto a toda la comunidad educativa
 
-Este marco documental es el paso 1. El **paso 2** es desarrollar un **sistema
-web liviano** para digitalizar todo el proceso: carga de solicitudes,
+Este proyecto nace desde la **Tecnicatura Superior en Desarrollo de Software**
+pero está abierto a **toda la comunidad del IES 9-018**:
+
+- **Estudiantes** — de cualquier carrera y año.
+- **Docentes** — de todas las áreas.
+- **Directivos** — coordinadores, consejo directivo, dirección.
+- **Personal institucional** — administrativo, preceptores, biblioteca.
+
+No hace falta saber programar para participar. La gobernanza digital nos
+involucra a todos.
+
+---
+
+## Dejá tu sugerencia formal (Issues)
+
+Los [Issues de GitHub](https://github.com/IES9018/gobernanza-servicios-digitales/issues)
+son el canal oficial para dejar sugerencias formales sobre la gobernanza digital
+de la institución. Cada Issue queda documentado con autor, fecha, contenido
+y seguimiento.
+
+Podés sugerir sobre:
+
+- **Documentación** — corregir, ampliar o mejorar los documentos existentes.
+- **Procesos** — cambios en el flujo de aprobación, roles o responsabilidades.
+- **Políticas** — nuevas reglas de uso, privacidad, transparencia.
+- **Sistema web** — ideas para la futura plataforma de gestión digital.
+- **Cualquier tema** que consideres relevante para la gobernanza digital.
+
+> Usá las plantillas disponibles al crear un Issue. Si tu sugerencia no
+> encaja en ninguna, elegí "Sugerencia de gobernanza" y completala libremente.
+
+[→ Abrir un Issue](https://github.com/IES9018/gobernanza-servicios-digitales/issues/new/choose)
+
+---
+
+## ¿Por qué participar?
+
+- **Dejás huella** — tu sugerencia queda documentada y forma parte de la
+  política institucional.
+- **Formás parte** — la gobernanza digital la construimos entre todos.
+- **Experiencia real** — si sos estudiante, trabajás sobre un sistema que la
+  institución necesita, con revisión y despliegue real.
+- **Portfolio** — tu nombre queda asociado a contribuciones públicas.
+
+---
+
+## ¿Qué viene después? — Sistema web de gestión
+
+Este marco documental es el **paso 1**. El **paso 2** es desarrollar un
+**sistema web liviano** para digitalizar todo el proceso: carga de solicitudes,
 evaluaciones técnicas e institucionales, seguimiento de estados, catálogo de
 servicios activos y dashboard para el Consejo Directivo.
 
-Será 100% open source, desarrollado por estudiantes de la Tecnicatura, y
-una oportunidad única de participar en un proyecto de código abierto desde
-cero. Todo se gestiona por [Issues](https://github.com/IES9018/gobernanza-servicios-digitales/issues).
-Si querés participar, leé [CONTRIBUTING.md](CONTRIBUTING.md) y sumate.
+Ese sistema web será **desarrollado íntegramente por estudiantes** de la
+Tecnicatura, como proyecto integrador. Este repositorio solo contiene la
+documentación y las reglas de negocio — el desarrollo corre por cuenta
+de los alumnos, guiados por sus docentes, sin recibir el código resuelto.
+
+Si querés participar del diseño o desarrollo, seguí los Issues con la
+etiqueta `sistema-web` y sumate al equipo.
+
+---
 
 [Plantillas](plantillas/) · [CHANGELOG](CHANGELOG.md) · [Índice completo](docs/00_INDICE.md) · [Cómo contribuir](CONTRIBUTING.md)

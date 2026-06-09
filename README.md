@@ -58,6 +58,25 @@ técnicas, legales e institucionales aplicar.
 | 2 — Institucional | Uso con datos reales, acceso interno | Consejo Directivo | Backup periódico |
 | 3 — Público | Acceso desde internet, datos personales | Consejo Directivo + Declaración firmada | Sin garantía de disponibilidad |
 
+## Auditoría y transparencia
+
+El servidor del IES 9-018 es **totalmente auditable** por cualquier persona
+autorizada con capacidad técnica. Existe un usuario `auditor` con permisos
+exclusivamente de lectura.
+
+→ [Documentación completa de auditoría](docs/09_AUDITABILIDAD.md)
+
+### Herramientas instaladas
+
+| Herramienta | Propósito |
+|-------------|-----------|
+| **auditd** | Registro de eventos a nivel kernel (comandos, cambios, accesos) |
+| **journald** | Log central del sistema y servicios |
+| **fail2ban** | Bloqueo automático de intentos de intrusión |
+| **Docker logs** | Logs de cada aplicación en contenedor |
+| **Server Bitácora** | Instantáneas automáticas cada 5 minutos del estado del servidor |
+| **Tailscale** | Red privada con registro de dispositivos conectados |
+
 ## Licencia
 
 Este material se comparte como referencia institucional y puede ser adaptado

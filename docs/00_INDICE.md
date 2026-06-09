@@ -85,6 +85,7 @@ responsabilidad exclusiva de quien lo solicita y lo mantiene.
 | 05 | Política de Uso Aceptable | Todos los desarrolladores | Establecer reglas de convivencia digital |
 | 06 | SLA Educativo | Admin + Responsable | Definir nivel de servicio esperado |
 | 07 | Glosario | — | Términos técnicos explicados |
+| 09 | Auditoría y Transparencia | Auditor / Público | Cómo auditar el servidor, herramientas instaladas, acceso read-only |
 
 ---
 

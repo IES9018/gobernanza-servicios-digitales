@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CONTRIBUTING.md
+    url: https://github.com/IES9018/gobernanza-servicios-digitales/blob/main/CONTRIBUTING.md
+    about: Antes de abrir un Issue, leé la guía de contribución.
+  - name: Índice general
+    url: https://github.com/IES9018/gobernanza-servicios-digitales/blob/main/docs/00_INDICE.md
+    about: Consultá la documentación existente antes de reportar.

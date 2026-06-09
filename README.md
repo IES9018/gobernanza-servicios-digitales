@@ -7,6 +7,8 @@ Marco institucional para solicitar, evaluar, aprobar, alojar y suspender servici
 
 > El alojamiento en infraestructura institucional **no implica aprobación, supervisión ni responsabilidad** del IES 9-018.
 
+---
+
 ## Flujo de aprobación
 
 ```mermaid
@@ -40,4 +42,37 @@ flowchart TD
 | 11 | [Emergencia y Control](docs/11_EMERGENCIA_Y_CONTROL.md) |
 | 12 | [Transparencia y Auditoría Comunitaria](docs/12_TRANSPARENCIA_COMUNITARIA.md) |
 
-[Plantillas](plantillas/) · [CHANGELOG](CHANGELOG.md) · [Índice completo](docs/00_INDICE.md)
+---
+
+## Colaborá con este proyecto
+
+Este marco de gobernanza es un proyecto **colaborativo, abierto y educativo**,
+impulsado desde la **Tecnicatura Superior en Desarrollo de Software** del
+IES 9-018. La [organización de GitHub IES9018](https://github.com/IES9018)
+ya tiene proyectos activos — como los laboratorios de Programación III, los
+trabajos de Modelado de Software y prácticas profesionalizantes — y este
+repositorio busca seguir ese mismo camino.
+
+### ¿Por qué participar?
+
+- **Experiencia profesional real**: trabajás sobre un sistema que la institución
+  necesita, con requisitos reales, revisión de código y despliegue en producción.
+- **Proyecto integrador**: perfecto para materias como Práctica Profesionalizante,
+  Modelado de Software o Arquitectura y Diseño de Interfaces.
+- **Portfolio**: tu código firmado queda público y visible para futuros empleadores.
+- **Trabajo colaborativo**: aprendés a usar Issues, PRs, forks, code review y
+  GitFlow en un entorno real con otros estudiantes.
+
+### ¿Qué viene después? — Sistema web de gestión
+
+Este marco documental es el paso 1. El **paso 2** es desarrollar un **sistema
+web liviano** para digitalizar todo el proceso: carga de solicitudes,
+evaluaciones técnicas e institucionales, seguimiento de estados, catálogo de
+servicios activos y dashboard para el Consejo Directivo.
+
+Será 100% open source, desarrollado por estudiantes de la Tecnicatura, y
+una oportunidad única de participar en un proyecto de código abierto desde
+cero. Todo se gestiona por [Issues](https://github.com/IES9018/gobernanza-servicios-digitales/issues).
+Si querés participar, leé [CONTRIBUTING.md](CONTRIBUTING.md) y sumate.
+
+[Plantillas](plantillas/) · [CHANGELOG](CHANGELOG.md) · [Índice completo](docs/00_INDICE.md) · [Cómo contribuir](CONTRIBUTING.md)

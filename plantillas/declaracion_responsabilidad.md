@@ -1,6 +1,6 @@
 # Declaración de Responsabilidad — Servicio Digital IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Junio 2026
 **Documento relacionado:** `04_DECLARACION_RESPONSABILIDAD.md`
 
 Yo, **{nombre del responsable}**, DNI **{número}**, responsable del proyecto

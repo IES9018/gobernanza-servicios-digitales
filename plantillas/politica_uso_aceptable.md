@@ -1,6 +1,6 @@
 # Política de Uso Aceptable — Plantilla IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Junio 2026
 **Documento relacionado:** `05_POLITICA_USO_ACEPTABLE.md`
 
 > Firmar antes de obtener acceso al servidor.

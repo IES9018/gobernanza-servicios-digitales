@@ -1,6 +1,6 @@
 # Solicitud de Usuario del Servidor — IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Junio 2026
 **Documento relacionado:** `07_SOLICITUD_USUARIO.md`
 
 > **Instrucciones:** Completar y enviar al admin técnico. Antes de enviar,

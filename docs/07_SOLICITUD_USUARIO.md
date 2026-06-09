@@ -1,6 +1,6 @@
 # Solicitud de Usuario del Servidor — IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Junio 2026
 **Plantilla imprimible:** `plantillas/solicitud_usuario.md`
 **Instrucciones:** Completar este formulario y enviarlo al administrador técnico
 del servidor. El acceso será concedido una vez aprobado por el responsable

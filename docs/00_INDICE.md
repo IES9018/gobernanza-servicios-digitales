@@ -120,16 +120,16 @@ graph TD
 ## 7. Proceso de aprobación (flujo)
 
 ```mermaid
-graph TD
-    A["Solicitante<br/>(completa 01_SOLICITUD)"] --> B["Admin Técnico<br/>(completa 02_EVALUACION_TECNICA)"]
-    B --> C["Dirección<br/>(completa 03_EVALUACION_INSTITUCIONAL)"]
-    C --> D["Consejo Directivo<br/>(evalúa documentos)"]
-    D --> E{¿Aprueba?}
-    E -->|Sí| F["Firma 04_DECLARACION<br/>+ 08_RESOLUCION"]
-    F --> G["Admin despliega<br/>el servicio"]
-    G --> H["Desarrollador firma<br/>05_POLITICA_USO_ACEPTABLE"]
-    H --> I[Servicio activo]
-    E -->|No| J["Se notifica al<br/>solicitante con fundamentos"]
+flowchart TD
+    A["Solicitud 01<br/>Alumno/Docente"] --> B["Evaluación Técnica 02<br/>Admin Servidor"]
+    B --> C["Evaluación Institucional 03<br/>Dirección"]
+    C --> D["Declaración 04 + Resolución 08"]
+    D --> E[Consejo Directivo]
+    E -->|Aprueba| F["Despliegue + Fork en Servidor<br/>+ SLA 06"]
+    E -->|Rechaza| G[Notificación con fundamentos]
+    subgraph Estudiantes Tecnicatura
+    A
+    end
 ```
 
 ---

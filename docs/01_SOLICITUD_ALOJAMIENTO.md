@@ -74,7 +74,8 @@ servicio.
 ## 3. Justificación de arquitectura de software
 
 > Esta sección es obligatoria para solicitudes de estudiantes de la
-> Tecnicatura Superior en Desarrollo de Software.
+> Tecnicatura Superior en Desarrollo de Software. Las respuestas serán
+> verificadas por el admin técnico en el documento 02_EVALUACION_TECNICA.md.
 
 ### ¿Qué arquitectura utiliza el proyecto?
 
@@ -117,8 +118,11 @@ servicio.
 - El repositorio debe ser **público**.
 - Si el alumno necesita mantener el código privado, debe subir el repositorio
   a la **organización oficial del IES 9-018** (`github.com/IES9018/`) como
-  fork interno. El proyecto alojado en el servidor escolar será siempre un
-  fork del repositorio original del alumno.
+  fork interno.
+- **El proyecto que se despliegue en el servidor escolar será siempre un fork
+  del repositorio original del alumno.** Esto garantiza que la institución
+  mantenga una copia del código en producción, independientemente de cambios
+  o eliminaciones del repositorio original.
 
 ### Licencia del desarrollo
 

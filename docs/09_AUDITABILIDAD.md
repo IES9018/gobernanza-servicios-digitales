@@ -1,6 +1,6 @@
 # Guía Técnica de Auditoría — IES 9-018
 
-**Versión:** 1.0 — Junio 2026
+**Versión:** v0.9 — Junio 2026
 **Documento relacionado:** `12_TRANSPARENCIA_COMUNITARIA.md` (política de transparencia y derecho de auditoría)
 
 ---

@@ -108,7 +108,6 @@ graph TD
 | 10 | [Glosario](10_GLOSARIO.md) | — | Términos técnicos explicados |
 | 11 | [Emergencia y Control](11_EMERGENCIA_Y_CONTROL.md) | Admin técnico + Directivos | Credenciales en sobre cerrado, blindaje de admins delegados, protección de logs |
 | 12 | [Transparencia y Auditoría Comunitaria](12_TRANSPARENCIA_COMUNITARIA.md) | Toda la comunidad | Política de transparencia, derecho de auditoría, información pública vs. restringida |
-| A | [Auditoría: prode-mundial](AUDITORIA_PRODE.md) | Admin técnico | Auditoría de conformidad del proyecto Prode Mundial 2026 contra el marco de gobernanza. Incluye análisis de procedencia (no es clon/fork) y uso de IA |
 
 ---
 

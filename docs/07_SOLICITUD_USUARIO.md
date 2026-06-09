@@ -196,36 +196,36 @@ Al firmar este formulario declaro:
 
 ---
 
-## 6. Ejemplo real sanitizado — Lautaro (Desarrollador)
+## 6. Ejemplo ilustrativo — Estudiante Desarrollador
 
-**Situación real:** Lautaro, alumno del IES 9-018, necesitaba alojar dos
-proyectos (biblioteca digital y prode deportivo) como parte de su formación.
-Su docente tutor avaló el proyecto.
+**Situación:** Un estudiante del IES 9-018 necesita alojar dos proyectos
+(biblioteca digital y prode deportivo) como parte de su formación.
+Su docente tutor avala el proyecto.
 
-### Qué se le otorgó
+### Qué se le otorga
 
 | Aspecto | Detalle |
 |---------|---------|
 | Perfil | Desarrollador |
-| Usuario | `lautaro` |
-| Acceso SSH | Solo su home (`/home/lautaro/`) |
-| Proyectos | `biblioteca`, `prode` en `/home/lautaro/proyectos/` |
-| Comandos permitidos | `servicio-lautaro up/down/logs/ps` (solo para sus proyectos) |
+| Usuario | `estudiante` |
+| Acceso SSH | Solo su home (`/home/estudiante/`) |
+| Proyectos | `biblioteca`, `prode` en `/home/estudiante/proyectos/` |
+| Comandos permitidos | `servicio-estudiante up/down/logs/ps` (solo para sus proyectos) |
 | Sin acceso a | `docker`, `sudo`, `/opt/`, `/root/`, otros usuarios |
 
-### Qué NO se le permitió
+### Qué NO se le permite
 
 - **Grupo docker** → equivalente a tener acceso root al servidor.
 - **Grupo sudo** → podría modificar cualquier archivo del sistema.
 - **Acceso a otros directorios** → no puede ver datos de otros proyectos.
 
-### Lecciones aprendidas
+### Lecciones para el estudiante
 
-1. El desarrollador debe entender que el servidor no es su computadora personal.
+1. El servidor no es una computadora personal: los recursos son compartidos.
 2. Todo proyecto debe tener un docente tutor responsable.
-3. El acceso debe revocarse al finalizar el proyecto o ciclo lectivo.
+3. El acceso se revoca al finalizar el proyecto o ciclo lectivo.
 4. Las credenciales débiles o por defecto deben reemplazarse antes de exponer
-   cualquier servicio.
+   cualquier servicio a internet.
 
 ---
 

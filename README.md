@@ -88,8 +88,22 @@ graph TD
 | 10 | [Glosario](docs/10_GLOSARIO.md) |
 | 11 | [Emergencia y Control](docs/11_EMERGENCIA_Y_CONTROL.md) |
 | 12 | [Transparencia y Auditoría Comunitaria](docs/12_TRANSPARENCIA_COMUNITARIA.md) |
+| A | [Auditoría: prode-mundial](docs/AUDITORIA_PRODE.md) |
 
 ---
+
+## Estado de los servicios existentes
+
+Los proyectos alojados en el servidor del IES 9-018 (prode-mundial, biblioteca)
+fueron creados **antes de que existiera este marco de gobernanza**. El documento
+[AUDITORIA_PRODE.md](docs/AUDITORIA_PRODE.md) analiza el primer proyecto auditado
+y servirá como modelo para regularizar el resto.
+
+Cada auditoría documenta:
+- Conformidades y no conformidades contra los docs 01-12.
+- Riesgos de seguridad e institucionales.
+- Análisis de procedencia (¿es código original? ¿fue copiado?).
+- Plan de regularización priorizado.
 
 ## Este es un proyecto vivo
 

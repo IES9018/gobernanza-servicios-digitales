@@ -43,8 +43,10 @@ El marco documental actual es el punto de partida. El objetivo es desarrollar
 un sistema web que digitalice todo el proceso. Si te interesa participar:
 
 - Seguí los Issues con la etiqueta `sistema-web`.
-- Comentá en el Issue [Roadmap v1.0](https://github.com/IES9018/gobernanza-servicios-digitales/issues/1)
+- Seguí los Issues con la etiqueta `sistema-web`.
+- Comentá en el [Roadmap v1.0](https://github.com/IES9018/gobernanza-servicios-digitales/issues/1)
   para sumarte al equipo de diseño o desarrollo.
+- Abrí un Issue con la plantilla "Sistema web" para proponer funcionalidades nuevas.
 
 ---
 

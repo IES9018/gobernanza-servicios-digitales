@@ -56,7 +56,7 @@
 
 | Decisión | |
 |----------|-|
-| ☐ Aprobado | Nivel asignado: ☐ 1 ☐ 2 ☐ 3 |
+| ☐ Aprobado | Nivel asignado: ☐ 1 — Experimental  ☐ 2 — Institucional  ☐ 3 — Público |
 | ☐ Aprobado con condiciones | Condiciones: |
 | ☐ Rechazado | Fundamentos: |
 

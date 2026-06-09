@@ -18,7 +18,7 @@ administradores técnicos, estudiantes desarrolladores y los datos de terceros.
 
 ---
 
-## 2. Disclaimer institucional
+## 2. Descargo de responsabilidad institucional
 
 > **El hecho de que una aplicación esté alojada en infraestructura institucional
 > no implica aprobación, supervisión editorial ni responsabilidad institucional
@@ -60,7 +60,7 @@ responsabilidad exclusiva de quien lo solicita y lo mantiene.
 | Datos | Datos institucionales no sensibles |
 | Acceso | Interno o con autenticación |
 | Aprobación | Consejo Directivo |
-| SLA | Disponibilidad尽力, backup periódico |
+| SLA | Sin garantía de disponibilidad, backup periódico |
 
 ### Nivel 3 — Público
 

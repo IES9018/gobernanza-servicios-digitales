@@ -12,7 +12,7 @@ IES 9-018. Define roles, responsabilidades, niveles de servicio y
 procedimientos para proteger a la institución, sus autoridades, docentes,
 administradores técnicos, estudiantes desarrolladores y los datos de terceros.
 
-## Disclaimer fundamental
+## Descargo de responsabilidad fundamental
 
 > El hecho de que una aplicación esté alojada en infraestructura institucional
 > no implica aprobación, supervisión editorial ni responsabilidad institucional

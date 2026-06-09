@@ -50,7 +50,7 @@ restringe las acciones posibles.
 
 ```bash
 # Puede hacer
-ssh alumno@100.110.184.64
+ssh alumno@&lt;ip-del-servidor&gt;
 sudo servicio-alumno up proyecto-ejemplo    # levantar servicio
 sudo servicio-alumno down proyecto-ejemplo   # frenar servicio
 sudo servicio-alumno logs proyecto-ejemplo   # ver logs
@@ -70,7 +70,7 @@ alumnos y verificar el estado general del servidor.
 
 ```bash
 # Puede hacer
-ssh docente@100.110.184.64
+ssh docente@&lt;ip-del-servidor&gt;
 docker ps                         # listar servicios activos
 docker logs servicio-alumno -n 20 # ver logs de proyectos de sus alumnos
 systemctl status cloudflared      # verificar estado del tunnel

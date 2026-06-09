@@ -67,11 +67,11 @@ Un "admin" con acceso completo puede:
 - Leer los datos de cualquier usuario.
 - Modificar o eliminar servicios críticos.
 - Desactivar la auditoría y borrar evidencias.
-- Suplantar al responsable (v12.paulo) o al usuario institucional (ies9018).
+- Suplantar al responsable (admin-responsable) o al usuario institucional (admin-institucional).
 
 ### La solución
 
-**Ningún admin delegado debe tener acceso a v12.paulo ni ies9018.**
+**Ningún admin delegado debe tener acceso a admin-responsable ni admin-institucional.**
 Nunca. Bajo ninguna circunstancia.
 
 En lugar de compartir usuarios, se crean cuentas separadas con permisos
@@ -79,8 +79,8 @@ estrictamente delimitados:
 
 ```bash
 # usuarios del sistema (intocables)
-v12.paulo      → admin responsable (solo él conoce su clave)
-ies9018        → admin institucional (uso exclusivo de la institución)
+admin-responsable      → admin responsable (solo él conoce su clave)
+admin-institucional    → admin institucional (uso exclusivo de la institución)
 auditor        → solo lectura
 
 # usuarios delegados (cada uno con su espacio)
@@ -140,8 +140,8 @@ modificarlo ni reemplazarlo.
 #### Regla 4: proteger las cuentas críticas con `chattr +i`
 
 ```bash
-# Las claves SSH de v12.paulo y root son inmutables
-sudo chattr +i /home/v12.paulo/.ssh/authorized_keys
+# Las claves SSH de admin-responsable y root son inmutables
+sudo chattr +i /home/admin-responsable/.ssh/authorized_keys
 sudo chattr +i /root/.ssh/authorized_keys
 
 # Los archivos de sudoers son inmutables
@@ -161,8 +161,8 @@ Para modificarlos: `sudo chattr -i <archivo>`, modificarlo, y luego
 
 | Usuario | Clave | Quién la conoce |
 |---------|-------|-----------------|
-| `v12.paulo` | Su contraseña personal | Solo v12.paulo |
-| `ies9018` | Contraseña institucional | Directivos + admin |
+| `admin-responsable` | Su contraseña personal | Solo admin-responsable |
+| `admin-institucional` | Contraseña institucional | Directivos + admin |
 | `root` | En sobre cerrado | Nadie (salvo emergencia) |
 | `auditor` | Clave SSH | Quien la solicite |
 | `desarrollador-1` | Su propia clave | Solo el desarrollador |
@@ -213,7 +213,7 @@ servidor.
 # Configurar reenvío syslog a un servidor externo
 # /etc/audit/audisp-remote.conf
 
-remote_server = logs.ies9018malargue.edu.ar
+remote_server = logs.escuela.edu.ar
 port = 60
 transport = tcp
 ```
@@ -251,12 +251,12 @@ BACKUP="/backup/auditoria/integridad.log"
 
 # Verificar que el archivo existe y no está vacío
 if [ ! -s "$LOG" ]; then
-  echo "ALERTA: audit.log vacío o inexistente" | mail -s "ALERTA AUDITORIA" directivos@ies9018malargue.edu.ar
+  echo "ALERTA: audit.log vacío o inexistente" | mail -s "ALERTA AUDITORIA" directivos@escuela.edu.ar
 fi
 
 # Verificar que chattr +a sigue activo
 if ! lsattr "$LOG" | grep -q "a"; then
-  echo "ALERTA: audit.log perdió el atributo append-only" | mail -s "ALERTA AUDITORIA" directivos@ies9018malargue.edu.ar
+  echo "ALERTA: audit.log perdió el atributo append-only" | mail -s "ALERTA AUDITORIA" directivos@escuela.edu.ar
 fi
 
 # Registrar verificación
@@ -292,20 +292,20 @@ chattr -a /var/log/audit/audit.log
 # Además, el script de verificación diaria detecta la pérdida de +a y envía alerta
 ```
 
-### Escenario 2: intenta acceder a la cuenta v12.paulo
+### Escenario 2: intenta acceder a la cuenta admin-responsable
 
 ```bash
-# Intenta hacer sudo a v12.paulo
-sudo -u v12.paulo -i
-# Resultado: requiere contraseña de v12.paulo (solo él la sabe)
+# Intenta hacer sudo a admin-responsable
+sudo -u admin-responsable -i
+# Resultado: requiere contraseña de admin-responsable (solo él la sabe)
 
-# Intenta leer la clave privada de v12.paulo
-cat /home/v12.paulo/.ssh/id_ed25519
+# Intenta leer la clave privada de admin-responsable
+cat /home/admin-responsable/.ssh/id_ed25519
 # Resultado: permission denied (atributo +i o permisos 600)
 
-# Intenta agregar su propia clave SSH a v12.paulo
-echo "clave-enemiga" >> /home/v12.paulo/.ssh/authorized_keys
-# Resultado: bash: /home/v12.paulo/.ssh/authorized_keys: Operation not permitted (chattr +i)
+# Intenta agregar su propia clave SSH a admin-responsable
+echo "clave-enemiga" >> /home/admin-responsable/.ssh/authorized_keys
+# Resultado: bash: /home/admin-responsable/.ssh/authorized_keys: Operation not permitted (chattr +i)
 ```
 
 ### Escenario 3: intenta modificar las reglas de auditoría
@@ -327,8 +327,8 @@ auditctl -D  # eliminar todas las reglas
 
 | Rol | Qué puede hacer | Qué NO puede hacer |
 |-----|----------------|-------------------|
-| **v12.paulo** (admin responsable) | Todo. Root, sudo, docker, logs, auditoría | Delegar su cuenta |
-| **ies9018** (admin institucional) | Todo en `/opt/escuela/`, sudo NOPASSWD | Prestarse, compartirse |
+| **admin-responsable** (admin responsable) | Todo. Root, sudo, docker, logs, auditoría | Delegar su cuenta |
+| **admin-institucional** (admin institucional) | Todo en `/opt/escuela/`, sudo NOPASSWD | Prestarse, compartirse |
 | **root** (emergencia) | Solo acceder en sobre cerrado | Usarse para trabajar |
 | **auditor** (externo) | Leer logs, estado, contenedores | Modificar cualquier cosa |
 | **desarrollador** | Script blindado para sus proyectos | Docker directo, sudo, otros usuarios |
@@ -343,7 +343,7 @@ No. Si esa persona se equivoca o actúa de mala fe, usted es responsable
 solidario. En su lugar, créale un perfil específico con sudoers
 restringido.
 
-**¿Puedo compartir la clave de ies9018 con varias personas?**
+**¿Puedo compartir la clave de admin-institucional con varias personas?**
 No. Cada persona debe tener su propio usuario. Si comparte la clave y
 alguien comete un error, no sabrá quién fue.
 

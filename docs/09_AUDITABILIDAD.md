@@ -38,7 +38,7 @@ de inspección y consulta.
 
 ```bash
 # Conectarse
-ssh -i <clave_auditor> auditor@100.110.184.64
+ssh -i <clave_auditor> auditor@&lt;ip-del-servidor&gt;
 
 # Ya adentro — comandos disponibles:
 
@@ -82,7 +82,7 @@ ssh -i <clave_auditor> auditor@100.110.184.64
 2. El admin la agrega a `/home/auditor/.ssh/authorized_keys`.
 3. El solicitante se conecta con:
    ```bash
-   ssh -i <su_clave_privada> auditor@100.110.184.64
+   ssh -i <su_clave_privada> auditor@&lt;ip-del-servidor&gt;
    ```
 4. Cada acceso queda registrado en `journalctl` y `auditd` con la huella
    de la llave utilizada (trazabilidad individual).

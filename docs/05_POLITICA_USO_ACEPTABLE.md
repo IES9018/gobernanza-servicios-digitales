@@ -57,7 +57,26 @@ Está **terminantemente prohibido** usar la infraestructura del IES 9-018 para:
 
 ---
 
-## 5. Seguridad
+## 5. Subdominios y DNS
+
+Está **terminantemente prohibido**:
+
+- Crear, usar o publicar cualquier servicio bajo el dominio
+  `ies9018malargue.edu.ar` o sus subdominios sin aprobación formal del
+  proceso de gobernanza.
+- Configurar registros DNS, Cloudflare, túneles o cualquier mecanismo de
+  enrutamiento que apunte un subdominio institucional a un servicio no
+  aprobado.
+- Asignar nombres de subdominio que no estén directamente relacionados con
+  el propósito educativo del servicio (nombres personales, comerciales,
+  genéricos o que puedan generar confusión).
+
+Solo el **administrador técnico** del IES 9-018 está autorizado a gestionar
+la configuración de DNS y la asignación de subdominios.
+
+---
+
+## 6. Seguridad
 
 Está **terminantemente prohibido**:
 
@@ -70,7 +89,7 @@ Está **terminantemente prohibido**:
 
 ---
 
-## 6. Consecuencias del incumplimiento
+## 7. Consecuencias del incumplimiento
 
 | Violación | Consecuencia |
 |-----------|--------------|
@@ -81,7 +100,7 @@ Está **terminantemente prohibido**:
 
 ---
 
-## 7. Aceptación
+## 8. Aceptación
 
 Yo, **{nombre del desarrollador}**, declaro haber leído y comprendido la
 Política de Uso Aceptable del Servidor del IES 9-018 y me comprometo a

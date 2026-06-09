@@ -17,6 +17,10 @@ técnicos de toda responsabilidad derivada del servicio.
 
 **Acepto** la suspensión inmediata del servicio ante incumplimientos.
 
+**Reconozco** que el subdominio asignado (si corresponde) es propiedad del
+IES 9-018 y su uso es revocable, y que el nombre del subdominio debe ser
+acorde al propósito educativo del servicio.
+
 ---
 
 | Firma del responsable | Firma institucional |

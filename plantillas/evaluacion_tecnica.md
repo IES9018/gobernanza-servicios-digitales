@@ -44,6 +44,8 @@
 | Puertos sin conflicto | ☐ Sí ☐ No |
 | Recursos documentados | ☐ Sí ☐ No |
 | No interfiere con otros servicios | ☐ Sí ☐ No |
+| Subdominio acorde al proyecto y pedagógicamente apropiado | ☐ Sí ☐ No ☐ N/A |
+| DNS/Cloudflare solo admin técnico | ☐ Sí ☐ No ☐ N/A |
 
 ---
 

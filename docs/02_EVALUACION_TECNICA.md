@@ -72,7 +72,8 @@
 | Puertos aprobados sin conflicto con otros servicios | ☐ Sí ☐ No | |
 | Recursos asignados (RAM, CPU, disco) documentados | ☐ Sí ☐ No | |
 | No interfiere con servicios institucionales críticos | ☐ Sí ☐ No | |
-| Subdominio configurado en Cloudflare (si aplica) | ☐ Sí ☐ No ☐ N/A | |
+| El subdominio solicitado es acorde al proyecto y pedagógicamente apropiado | ☐ Sí ☐ No ☐ N/A | |
+| DNS/Cloudflare solo lo configura el admin técnico — el desarrollador no tiene acceso | ☐ Sí ☐ No ☐ N/A | |
 
 ---
 

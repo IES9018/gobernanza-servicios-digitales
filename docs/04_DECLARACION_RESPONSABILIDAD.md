@@ -29,6 +29,12 @@ de datos.
 **1.5.** Asumo la obligación de mantener el servicio actualizado y seguro,
 incluyendo dependencias, credenciales y parches de seguridad.
 
+**1.6.** Reconozco que el subdominio asignado al servicio (si corresponde) es
+un recurso institucional propiedad del IES 9-018 y que su uso es revocable
+en cualquier momento por decisión del Consejo Directivo. El nombre del
+subdominio debe ser acorde al propósito educativo del servicio y no podrá
+cederse ni transferirse a terceros.
+
 ## 2. Liberación de responsabilidad
 
 Libero al IES 9-018, a sus autoridades, docentes, personal administrativo y

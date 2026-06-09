@@ -7,6 +7,16 @@ Marco institucional para solicitar, evaluar, aprobar, alojar y suspender servici
 
 > El alojamiento en infraestructura institucional **no implica aprobación, supervisión ni responsabilidad** del IES 9-018.
 
+### Propiedad del dominio institucional
+
+El dominio **ies9018malargue.edu.ar** y **todos sus subdominios** son propiedad
+exclusiva del IES 9-018. Ningún servicio podrá publicarse bajo este dominio o
+subdominios sin la aprobación formal del proceso de gobernanza
+(documentos 01 al 08).
+
+El administrador técnico es la única persona autorizada para realizar cambios
+de DNS y asignación de subdominios.
+
 ---
 
 ## Flujo de aprobación

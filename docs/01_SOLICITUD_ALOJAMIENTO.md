@@ -15,7 +15,26 @@ servicio.
 | Nombre del proyecto | |
 | Fecha de solicitud | |
 | Nivel solicitado (1/2/3) | |
-| URL o subdominio propuesto | |
+| Subdominio solicitado | |
+
+> El dominio `ies9018malargue.edu.ar` y todos sus subdominios son propiedad
+> exclusiva del IES 9-018. Al solicitar un subdominio, el responsable reconoce
+> que el nombre es un recurso institucional revocable y que su uso no otorga
+> ningún derecho de propiedad sobre el mismo.
+> 
+> **Solo el administrador técnico puede configurar DNS y asignar subdominios.**
+
+### Justificación del nombre del subdominio
+
+> Explicar por qué el nombre del subdominio elegido es adecuado para el proyecto
+> y consistente con el propósito educativo del servicio.
+
+| Pregunta | Respuesta |
+|----------|-----------|
+| Subdominio solicitado | |
+| ¿Qué significado tiene el nombre elegido? | |
+| ¿Se relaciona directamente con el proyecto? | Sí / No — Explicar |
+| ¿Podría el nombre prestarse a confusión con otro servicio o entidad? | Sí / No |
 
 ### Responsable principal
 

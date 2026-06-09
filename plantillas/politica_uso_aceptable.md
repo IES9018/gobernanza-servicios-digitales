@@ -14,6 +14,8 @@ Yo, **{nombre}**, en mi carácter de desarrollador del proyecto
 - No publicar datos personales de estudiantes.
 - No usar el servidor para apuestas, actividades comerciales o ilegales.
 - No escanear redes ni intentar elevar privilegios.
+- No crear ni usar subdominios del IES 9-018 sin aprobación formal del proceso de gobernanza.
+- No asignar nombres de subdominio que no estén directamente relacionados con el propósito educativo del servicio.
 - No exponer credenciales en repositorios públicos.
 
 ---

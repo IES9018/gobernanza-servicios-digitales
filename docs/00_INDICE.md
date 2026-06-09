@@ -32,7 +32,29 @@ responsabilidad exclusiva de quien lo solicita y lo mantiene.
 
 ---
 
-## 3. Modelo de responsabilidades
+## 3. Dominio institucional como activo de la institución
+
+El dominio **ies9018malargue.edu.ar** y **todos sus subdominios**
+(ej: `cualquierproyecto.ies9018malargue.edu.ar`) son **propiedad exclusiva
+del IES 9-018**. Constituyen un activo digital institucional que representa
+públicamente a la institución.
+
+### Implicancias
+
+- Cualquier servicio publicado bajo el dominio o un subdominio será percibido
+  por la comunidad como avalado por el IES 9-018.
+- Por lo tanto, todo subdominio requiere **aprobación expresa** mediante el
+  proceso de gobernanza (documentos 01 al 08).
+- El nombre del subdominio debe ser **acorde al propósito educativo** del
+  servicio y aprobado por el Consejo Directivo.
+- Solo el administrador técnico puede realizar cambios de DNS y asignar
+  subdominios. Ningún desarrollador o docente tiene acceso a la gestión de DNS.
+- El IES se reserva el derecho de **revocar un subdominio en cualquier momento**
+  si el servicio deja de cumplir los requisitos institucionales.
+
+---
+
+## 4. Modelo de responsabilidades
 
 ```mermaid
 graph LR
@@ -51,7 +73,7 @@ graph LR
 
 ---
 
-## 4. Niveles de servicio
+## 5. Niveles de servicio
 
 ```mermaid
 graph TD
@@ -70,7 +92,7 @@ graph TD
 
 ---
 
-## 5. Índice de documentos
+## 6. Índice de documentos
 
 | # | Documento | Quién lo completa | Propósito |
 |---|-----------|-------------------|-----------|
@@ -89,7 +111,7 @@ graph TD
 
 ---
 
-## 6. Cómo usar este marco
+## 7. Cómo usar este marco
 
 ### Para estudiantes (Tecnicatura en Desarrollo de Software)
 
@@ -117,7 +139,7 @@ graph TD
 
 ---
 
-## 7. Proceso de aprobación (flujo)
+## 8. Proceso de aprobación (flujo)
 
 ```mermaid
 flowchart TD
@@ -134,7 +156,7 @@ flowchart TD
 
 ---
 
-## 8. Transparencia y auditoría
+## 9. Transparencia y auditoría
 
 La documentación, políticas y procesos de este repositorio son auditables por
 cualquier miembro de la comunidad educativa. La seguridad del servidor no se
@@ -161,7 +183,7 @@ documentación abierta y trazabilidad.
 
 ---
 
-## 9. Suspensión de servicios
+## 10. Suspensión de servicios
 
 El admin técnico puede suspender un servicio de inmediato si:
 

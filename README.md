@@ -168,4 +168,4 @@ etiqueta `sistema-web` y sumate al equipo.
 
 ---
 
-[Plantillas](plantillas/) · [CHANGELOG](CHANGELOG.md) · [Índice completo](docs/00_INDICE.md) · [Cómo contribuir](CONTRIBUTING.md)
+[Plantillas](plantillas/) · [CHANGELOG](CHANGELOG.md) · [Índice completo](docs/00_INDICE.md) · [Cómo contribuir](CONTRIBUTING.md) · [Referencias de gobernanza](docs/REFERENCIAS_GOBERNANZA.md)

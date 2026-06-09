@@ -1,6 +1,7 @@
 # Declaración de Responsabilidad — Servicio Digital IES 9-018
 
 **Versión:** 1.0 — Junio 2026
+**Plantilla imprimible:** `plantillas/declaracion_responsabilidad.md`
 
 ---
 

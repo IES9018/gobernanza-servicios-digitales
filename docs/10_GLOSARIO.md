@@ -1,5 +1,8 @@
 # Glosario — Gobernanza de Servicios Digitales IES 9-018
 
+**Versión:** 1.0 — Junio 2026
+**Documento relacionado:** `00_INDICE.md`
+
 ---
 
 | Término | Significado |

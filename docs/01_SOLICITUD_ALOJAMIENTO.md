@@ -1,6 +1,7 @@
 # Solicitud de Alojamiento de Servicio Digital — IES 9-018
 
 **Versión:** 1.0 — Junio 2026
+**Plantilla imprimible:** `plantillas/solicitud_alu.md`
 **Instrucciones:** Completar este formulario y enviarlo al admin técnico del
 servidor junto con los documentos 02, 03 y 04 según corresponda al nivel del
 servicio.

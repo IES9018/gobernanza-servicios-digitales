@@ -261,3 +261,13 @@ El sistema lo rechaza y el intento queda registrado en `auditd` y
 Los logs de auditoría del kernel rotan mensualmente. Los logs del sistema
 (journald) están limitados a 1 GB. Los logs de aplicaciones dependen de
 la configuración de cada contenedor.
+
+---
+
+## 9. Documentos relacionados
+
+| Documento | Relación |
+|-----------|----------|
+| `12_TRANSPARENCIA_COMUNITARIA.md` | Política de transparencia: qué se audita, quién puede solicitarlo, cómo se publican los resultados |
+| `07_SOLICITUD_USUARIO.md` | Perfil Auditor: cómo solicitar acceso, alcance de permisos |
+| `11_EMERGENCIA_Y_CONTROL.md` | Protección de logs contra eliminación, blindaje del sistema de auditoría |

@@ -1,5 +1,8 @@
 # Política de Uso Aceptable — Plantilla IES 9-018
 
+**Versión:** 1.0 — Junio 2026
+**Documento relacionado:** `05_POLITICA_USO_ACEPTABLE.md`
+
 > Firmar antes de obtener acceso al servidor.
 
 Yo, **{nombre}**, en mi carácter de desarrollador del proyecto

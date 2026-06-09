@@ -1,5 +1,8 @@
 # Evaluación Institucional — Plantilla IES 9-018
 
+**Versión:** 1.0 — Junio 2026
+**Documento relacionado:** `03_EVALUACION_INSTITUCIONAL.md`
+
 > Completar por Dirección / Coordinación / Consejo Directivo.
 
 **Proyecto:** {nombre del proyecto}

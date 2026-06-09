@@ -1,6 +1,10 @@
 # Solicitud de Usuario del Servidor — IES 9-018
 
-> **Instrucciones:** Completar y enviar al admin técnico.
+**Versión:** 1.0 — Junio 2026
+**Documento relacionado:** `07_SOLICITUD_USUARIO.md`
+
+> **Instrucciones:** Completar y enviar al admin técnico. Antes de enviar,
+> leer la Política de Uso Aceptable (documento 05).
 
 **Perfil solicitado:**
 ☐ Desarrollador — alojar proyectos en el servidor

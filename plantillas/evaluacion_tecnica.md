@@ -1,5 +1,8 @@
 # Evaluación Técnica — Plantilla IES 9-018
 
+**Versión:** 1.0 — Junio 2026
+**Documento relacionado:** `02_EVALUACION_TECNICA.md`
+
 > Completar por el admin técnico del servidor.
 
 **Proyecto:** {nombre del proyecto}

@@ -18,33 +18,38 @@ administradores técnicos, estudiantes desarrolladores y los datos de terceros.
 > no implica aprobación, supervisión editorial ni responsabilidad institucional
 > sobre los contenidos, datos o actividades desarrolladas por sus responsables.
 
-## Documentos
+## Documentos del marco de gobernanza
 
 | # | Documento | Quién lo completa | Propósito |
 |---|-----------|-------------------|-----------|
+| 00 | [Índice general](docs/00_INDICE.md) | — | Visión general, propósito, modelo de responsabilidades y niveles de servicio |
 | 01 | [Solicitud de Alojamiento](docs/01_SOLICITUD_ALOJAMIENTO.md) | Responsable del proyecto | Pedir formalmente el servicio |
 | 02 | [Evaluación Técnica](docs/02_EVALUACION_TECNICA.md) | Admin del servidor | Verificar seguridad y operabilidad |
 | 03 | [Evaluación Institucional](docs/03_EVALUACION_INSTITUCIONAL.md) | Dirección / Coordinación | Evaluar alineación educativa y riesgo |
 | 04 | [Declaración de Responsabilidad](docs/04_DECLARACION_RESPONSABILIDAD.md) | Responsable del proyecto | Liberar de responsabilidad a la institución |
-| 05 | [Política de Uso Aceptable](docs/05_POLITICA_USO_ACEPTABLE.md) | Todos los desarrolladores | Reglas de convivencia digital |
-| 06 | [SLA Educativo](docs/06_SLA_EDUCATIVO.md) | Admin + Responsable | Nivel de servicio esperado |
-| 07 | [Glosario](docs/GLOSARIO.md) | — | Términos técnicos explicados |
+| 05 | [Política de Uso Aceptable](docs/05_POLITICA_USO_ACEPTABLE.md) | Todos los desarrolladores | Establecer reglas de convivencia digital |
+| 06 | [SLA Educativo](docs/06_SLA_EDUCATIVO.md) | Admin + Responsable | Definir nivel de servicio esperado |
+| 07 | [Solicitud de Usuario](docs/07_SOLICITUD_USUARIO.md) | Solicitante de acceso | Pedir una cuenta en el servidor |
+| 08 | [Resolución Directiva](docs/08_RESOLUCION_DIRECTIVA.md) | Consejo Directivo | Formalizar la aprobación del servicio |
+| 09 | [Guía Técnica de Auditoría](docs/09_AUDITABILIDAD.md) | Auditor / Público | Herramientas instaladas, usuario auditor, comandos |
+| 10 | [Glosario](docs/10_GLOSARIO.md) | — | Términos técnicos explicados |
+| 11 | [Emergencia y Control](docs/11_EMERGENCIA_Y_CONTROL.md) | Admin técnico + Directivos | Credenciales en sobre cerrado, blindaje de admins delegados, protección de logs |
+| 12 | [Transparencia y Auditoría Comunitaria](docs/12_TRANSPARENCIA_COMUNITARIA.md) | Toda la comunidad | Política de transparencia, derecho de auditoría, información pública vs. restringida |
 
-### Archivos complementarios
+## Plantillas editables
 
-- [Solicitud de usuario del servidor](docs/07_SOLICITUD_USUARIO.md) — para pedir una cuenta con perfiles definidos
-- [Resolución Directiva](docs/08_RESOLUCION_DIRECTIVA.md) — modelo para formalizar la aprobación
-- [Índice completo de gobernanza](docs/00_INDICE.md) — con modelo de responsabilidades y niveles
+Cada plantilla corresponde al documento del mismo nombre y puede usarse
+como formulario imprimible:
 
-### Plantillas editables
-
-- [Solicitud de alojamiento (versión alumnos)](plantillas/solicitud_alu.md)
-- [Declaración de responsabilidad (versión imprimible)](plantillas/declaracion_responsabilidad.md)
-- [Evaluación técnica](plantillas/evaluacion_tecnica.md)
-- [Evaluación institucional](plantillas/evaluacion_institucional.md)
-- [Política de uso aceptable](plantillas/politica_uso_aceptable.md)
-- [SLA educativo](plantillas/sla_educativo.md)
-- [Solicitud de usuario del servidor](plantillas/solicitud_usuario.md)
+| Plantilla | Documento relacionado |
+|-----------|----------------------|
+| [Solicitud de alojamiento (alumnos)](plantillas/solicitud_alu.md) | 01 — Solicitud de Alojamiento |
+| [Evaluación técnica](plantillas/evaluacion_tecnica.md) | 02 — Evaluación Técnica |
+| [Evaluación institucional](plantillas/evaluacion_institucional.md) | 03 — Evaluación Institucional |
+| [Declaración de responsabilidad](plantillas/declaracion_responsabilidad.md) | 04 — Declaración de Responsabilidad |
+| [Política de uso aceptable](plantillas/politica_uso_aceptable.md) | 05 — Política de Uso Aceptable |
+| [SLA educativo](plantillas/sla_educativo.md) | 06 — SLA Educativo |
+| [Solicitud de usuario](plantillas/solicitud_usuario.md) | 07 — Solicitud de Usuario |
 
 ## Ejemplos incluidos
 
@@ -64,15 +69,16 @@ técnicas, legales e institucionales aplicar.
 | 2 — Institucional | Uso con datos reales, acceso interno | Consejo Directivo | Backup periódico |
 | 3 — Público | Acceso desde internet, datos personales | Consejo Directivo + Declaración firmada | Sin garantía de disponibilidad |
 
-## Auditoría y transparencia
+## Transparencia y auditoría
 
-El servidor del IES 9-018 es **totalmente auditable** por cualquier persona
-autorizada con capacidad técnica. Existe un usuario `auditor` con permisos
-exclusivamente de lectura.
+La documentación, políticas y procesos de este repositorio son auditables por
+cualquier miembro de la comunidad educativa. La seguridad del servidor no se
+basa en el secreto sino en buenas prácticas, controles técnicos,
+documentación abierta y trazabilidad.
 
-→ [Documentación completa de auditoría](docs/09_AUDITABILIDAD.md)
+→ [Política de transparencia y derecho de auditoría](docs/12_TRANSPARENCIA_COMUNITARIA.md)
+→ [Guía técnica de herramientas de auditoría](docs/09_AUDITABILIDAD.md)
 → [Emergencia, blindaje y control de acceso](docs/11_EMERGENCIA_Y_CONTROL.md)
-→ [Transparencia y auditoría comunitaria](docs/12_TRANSPARENCIA_COMUNITARIA.md)
 
 ### Herramientas instaladas
 

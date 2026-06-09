@@ -1,6 +1,7 @@
 # Política de Uso Aceptable del Servidor — IES 9-018
 
 **Versión:** 1.0 — Junio 2026
+**Plantilla imprimible:** `plantillas/politica_uso_aceptable.md`
 
 ---
 

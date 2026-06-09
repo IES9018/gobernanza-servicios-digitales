@@ -1,6 +1,7 @@
 # Evaluación Técnica de Servicio Digital — IES 9-018
 
 **Versión:** 1.0 — Junio 2026
+**Plantilla imprimible:** `plantillas/evaluacion_tecnica.md`
 **Completado por:** Admin técnico del servidor
 
 ---

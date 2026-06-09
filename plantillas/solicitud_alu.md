@@ -1,11 +1,16 @@
 # Solicitud de Alojamiento de Servicio Digital — IES 9-018
 
-> **Instrucciones:** Copiar este archivo, renombrarlo con el nombre del
-> proyecto y completar los campos. Enviar al admin técnico.
+**Versión:** 1.0 — Junio 2026
+**Documento relacionado:** `01_SOLICITUD_ALOJAMIENTO.md`
 
-**Nivel:** ☐ 1 — Experimental (proyecto de alumno, sin datos reales)
-**Nivel:** ☐ 2 — Institucional (uso docente, datos institucionales)
-**Nivel:** ☐ 3 — Público (acceso desde internet, datos personales)
+> **Instrucciones:** Copiar este archivo, renombrarlo con el nombre del
+> proyecto y completar los campos. Enviar al admin técnico junto con la
+> documentación que corresponda según el nivel solicitado.
+
+**Nivel solicitado:**
+☐ 1 — Experimental (proyecto de alumno, sin datos reales)
+☐ 2 — Institucional (uso docente, datos institucionales)
+☐ 3 — Público (acceso desde internet, datos personales)
 
 ---
 

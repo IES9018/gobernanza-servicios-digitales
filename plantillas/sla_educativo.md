@@ -1,5 +1,8 @@
 # Acuerdo SLA Educativo — Plantilla IES 9-018
 
+**Versión:** 1.0 — Junio 2026
+**Documento relacionado:** `06_SLA_EDUCATIVO.md`
+
 > Firmar entre admin técnico y responsable del proyecto.
 
 ## Naturaleza

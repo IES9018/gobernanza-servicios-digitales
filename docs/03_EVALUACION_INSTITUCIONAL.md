@@ -1,6 +1,7 @@
 # Evaluación Institucional de Servicio Digital — IES 9-018
 
 **Versión:** 1.0 — Junio 2026
+**Plantilla imprimible:** `plantillas/evaluacion_institucional.md`
 **Completado por:** Dirección / Coordinación / Consejo Directivo
 
 ---

@@ -5,6 +5,18 @@
 Primera versión estructurada del marco de gobernanza. Listo para revisión
 del Consejo Directivo y prueba piloto con proyectos de alumnos.
 
+### Colaboración y comunidad
+
+- README: sección de colaboración abierta a estudiantes de la Tecnicatura,
+  con beneficios educativos y próximos pasos (sistema web de gestión).
+- CONTRIBUTING.md creado con guía completa: cómo reportar Issues, abrir PRs,
+  convenciones de commits, tecnologías tentativas, código de conducta.
+- 3 templates de Issues (mejora, sistema-web, error) en `.github/ISSUE_TEMPLATE/`.
+- Labels recomendadas (12) documentadas en `.github/labels-recomendadas.md`.
+- Script `scripts/crear-issues-iniciales.sh` para crear 7 issues iniciales
+  vía API de GitHub (roadmap, colaboración, diagramas, stack, modelo de datos,
+  plantilla docente, etc.).
+
 ### Estructura general
 
 - Reorganización completa del repositorio en 12 documentos + índice.
